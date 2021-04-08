@@ -1,0 +1,77 @@
+/*--- Site Grid---*/
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 500px;
+	grid-template-rows: auto;
+	grid-template-areas:
+		"header header"
+		"main aside"
+		"footer footer";
+	grid-gap: 2px;
+	
+}
+
+main, aside, footer {
+	border-style: inset;
+	border-width: 4px;
+}
+
+header {
+	grid-area: header;
+	text-align: center;
+}
+
+main {
+	grid-area: main;
+	background-color: #ffB46B; /* pale orange */
+	border-color: #e98625; /* strong orange */
+}
+
+aside {
+	grid-area: aside;
+	background-color: #B3D0EF; /* pastel blue */
+	border-color: #3b71a8; /* deep blue */
+}
+
+footer {
+	grid-area: footer;
+	background-color: #616161; /* grey */
+	border-color: #616161; /* grey */
+	text-align: right;
+	color: #FFFFFF;
+}
+
+/* --- Text Styling ---*/
+
+h1 {
+	text-shadow: 2px 2px #000000;
+	color: #FFFFFF;
+	font-size: 600%;
+	font-family: 'Raleway', sans-serif
+}
+
+h2 {
+	font-family: 'Hind', sans-serif
+}
+
+p {
+	font-family: 'Lato', sans-serif
+}
+
+/* --- Link Formating --- */
+
+aside a:link {color: #3b71a8} /* deep blue */
+aside a:visited {color: #e98625} /* strong orange */
+aside a:hover {color: #225C98} /* dark blue */
+
+/*--- Styling/Formating ---*/
+
+.box {
+	padding: 10px;
+	border-radius: 5px;
+}
+
+body {
+  background-color: black;
+}

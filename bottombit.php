@@ -1,0 +1,4 @@
+<footer class="box">
+    <p>Made by Jack Frear 2021.  Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+		
